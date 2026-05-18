@@ -10,6 +10,7 @@ import Section6 from '../components/Section6';
 function Home() {
   return (
     <main id="main-content" role="main">
+      <h1 className="sr-only">국립중앙박물관 메인 홈</h1>
       <Hero />
       <Section1 />
       <Section2 />

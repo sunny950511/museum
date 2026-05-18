@@ -1,0 +1,465 @@
+[
+  {
+    "id": "color-contrast",
+    "impact": "serious",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143",
+      "TTv5",
+      "TT13.c",
+      "EN-301-549",
+      "EN-9.1.4.3",
+      "ACT",
+      "RGAAv4",
+      "RGAA-3.2.1"
+    ],
+    "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+    "nodes": [
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#727272",
+              "bgColor": "#f4f4f4",
+              "contrastRatio": 4.37,
+              "fontSize": "10.5pt (14px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<section class=\"section-events\" aria-labelledby=\"events-title\">",
+                "target": [
+                  ".section-events"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"event-category\">가족뮤지컬</span>",
+        "target": [
+          "a[href$=\"#event-1\"] > .event-info > .event-category"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#727272",
+              "bgColor": "#f4f4f4",
+              "contrastRatio": 4.37,
+              "fontSize": "9.0pt (12px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<section class=\"section-events\" aria-labelledby=\"events-title\">",
+                "target": [
+                  ".section-events"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"event-period\">2026.04.04~2026.05.25</span>",
+        "target": [
+          "a[href$=\"#event-1\"] > .event-info > .event-period"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#727272",
+              "bgColor": "#f4f4f4",
+              "contrastRatio": 4.37,
+              "fontSize": "10.5pt (14px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<section class=\"section-events\" aria-labelledby=\"events-title\">",
+                "target": [
+                  ".section-events"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"event-category\">뮤지엄모먼트</span>",
+        "target": [
+          "a[href$=\"#event-2\"] > .event-info > .event-category"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#727272",
+              "bgColor": "#f4f4f4",
+              "contrastRatio": 4.37,
+              "fontSize": "9.0pt (12px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<section class=\"section-events\" aria-labelledby=\"events-title\">",
+                "target": [
+                  ".section-events"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"event-period\">2026.04.04~2026.05.25</span>",
+        "target": [
+          "a[href$=\"#event-2\"] > .event-info > .event-period"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#727272",
+              "bgColor": "#f4f4f4",
+              "contrastRatio": 4.37,
+              "fontSize": "10.5pt (14px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<section class=\"section-events\" aria-labelledby=\"events-title\">",
+                "target": [
+                  ".section-events"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"event-category\">유물로 읽는 삶</span>",
+        "target": [
+          "a[href$=\"#event-3\"] > .event-info > .event-category"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#727272",
+              "bgColor": "#f4f4f4",
+              "contrastRatio": 4.37,
+              "fontSize": "9.0pt (12px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<section class=\"section-events\" aria-labelledby=\"events-title\">",
+                "target": [
+                  ".section-events"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"event-period\">2026.04.04~2026.05.25</span>",
+        "target": [
+          "a[href$=\"#event-3\"] > .event-info > .event-period"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#727272",
+              "bgColor": "#f4f4f4",
+              "contrastRatio": 4.37,
+              "fontSize": "10.5pt (14px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<section class=\"section-events\" aria-labelledby=\"events-title\">",
+                "target": [
+                  ".section-events"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"event-category\">2026년</span>",
+        "target": [
+          "a[href$=\"#event-4\"] > .event-info > .event-category"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#727272",
+              "bgColor": "#f4f4f4",
+              "contrastRatio": 4.37,
+              "fontSize": "9.0pt (12px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<section class=\"section-events\" aria-labelledby=\"events-title\">",
+                "target": [
+                  ".section-events"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"event-period\">2026.04.04~2026.05.25</span>",
+        "target": [
+          "a[href$=\"#event-4\"] > .event-info > .event-period"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#727272",
+              "bgColor": "#f4f4f4",
+              "contrastRatio": 4.37,
+              "fontSize": "10.5pt (14px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<section class=\"section-events\" aria-labelledby=\"events-title\">",
+                "target": [
+                  ".section-events"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"event-category\">지역 국립박물관</span>",
+        "target": [
+          "a[href$=\"#event-5\"] > .event-info > .event-category"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#727272",
+              "bgColor": "#f4f4f4",
+              "contrastRatio": 4.37,
+              "fontSize": "9.0pt (12px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<section class=\"section-events\" aria-labelledby=\"events-title\">",
+                "target": [
+                  ".section-events"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"event-period\">2026.04.04~2026.05.25</span>",
+        "target": [
+          "a[href$=\"#event-5\"] > .event-info > .event-period"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#727272",
+              "bgColor": "#f4f4f4",
+              "contrastRatio": 4.37,
+              "fontSize": "10.5pt (14px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<section class=\"section-events\" aria-labelledby=\"events-title\">",
+                "target": [
+                  ".section-events"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"event-category\">특별전시</span>",
+        "target": [
+          "a[href$=\"#event-6\"] > .event-info > .event-category"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#727272",
+              "bgColor": "#f4f4f4",
+              "contrastRatio": 4.37,
+              "fontSize": "9.0pt (12px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<section class=\"section-events\" aria-labelledby=\"events-title\">",
+                "target": [
+                  ".section-events"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"event-period\">2026.06.01~2026.08.31</span>",
+        "target": [
+          "a[href$=\"#event-6\"] > .event-info > .event-period"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#727272",
+              "bgColor": "#f4f4f4",
+              "contrastRatio": 4.37,
+              "fontSize": "12.0pt (16px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<div class=\"online-header-nav\"><button type=\"button\" class=\"nav-btn\" aria-label=\"이전 전시\">&lt;</button><span class=\"page-indicator\"><span class=\"current\">1</span> / 3</span><button type=\"button\" class=\"nav-btn\" aria-label=\"다음 전시\">&gt;</button></div>",
+                "target": [
+                  ".online-header-nav"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"page-indicator\"><span class=\"current\">1</span> / 3</span>",
+        "target": [
+          ".page-indicator"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #727272, background color: #f4f4f4, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+      }
+    ]
+  }
+]
