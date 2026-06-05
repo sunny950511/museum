@@ -10,8 +10,8 @@
 
 ## 2. 배포 및 관련 링크
 
-- **Live Demo:** https://sunny950511-ux.github.io/museum/
-- **GitHub Repository:** https://github.com/sunny950511-ux/museum
+- **Live Demo:** https://sunny950511.github.io/museum/
+- **GitHub Repository:** https://github.com/sunny950511/museum
 - **Design (Figma):** https://www.figma.com/design/DxjuKOxdy13xegJxIXxLda/%EA%B3%B5%EA%B3%B5%EC%82%AC%EC%9D%B4%ED%8A%B8-%EA%B0%9C%EC%84%A0?node-id=33-164&m=dev
 
 ---
