@@ -1,82 +1,27 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Section1.css';
-import section01_1 from '../assets/section01_1.jpg';
-import section01_2 from '../assets/section01_2.jpg';
-import section01_3 from '../assets/section01_3.jpg';
 
 function Section1() {
   return (
-    <section className="section1-cards" aria-label="추천 전시 및 예약 안내">
-      <h2 className="sr-only">추천 전시 섹션</h2>
-      <article className="section1-card">
-        <img 
-          src={section01_1}
-          alt="지금 꼭 봐야할 특별전시 이미지" 
-          className="section1-card-bg" 
-          aria-hidden="true" 
-        />
-        <div className="section1-card-overlay">
-          <div className="section1-card-text">
-            <h3 className="section1-card-title">지금 꼭 봐야할 특별 전시</h3>
-            <p className="section1-card-desc">국보급 유물을 한자리에서 만나는 기회</p>
+    <section className="section-info" aria-label="이용 안내">
+      <h2 className="sr-only">이용 안내 섹션</h2>
+      <div className="info-container">
+        <div className="info-block">
+          <h3 className="info-title">관람시간</h3>
+          <div className="info-desc-group">
+            <p className="info-desc">일,월,화,목,금 09:30 ~ 17:30</p>
+            <p className="info-desc">수,토 09:30 ~ 21:00</p>
           </div>
-          <Link 
-            to="/booking" 
-            className="section1-card-btn" 
-            aria-label="지금 꼭 봐야할 특별 전시 예약 페이지로 이동"
-          >
-            더 많은 전시 확인하기 &rarr;
-          </Link>
         </div>
-      </article>
-
-      <article className="section1-card">
-        <img 
-          src={section01_2} 
-          alt="조용히 즐기는 상설전시 이미지" 
-          className="section1-card-bg" 
-          aria-hidden="true" 
-        />
-        <div className="section1-card-overlay">
-          <div className="section1-card-text">
-            <h3 className="section1-card-title">조용히 즐기는 상설전시</h3>
-            <p className="section1-card-desc">반가사유상과 함께하는 명상의 시간</p>
+        <div className="info-block">
+          <h3 className="info-title">입장료</h3>
+          <div className="info-desc-group">
+            <p className="info-desc">무료 (특별전시 유료)</p>
           </div>
-          <Link 
-            to="/booking" 
-            className="section1-card-btn" 
-            aria-label="조용히 즐기는 상설전시 예약 페이지로 이동"
-          >
-            더 많은 전시 확인하기 &rarr;
-          </Link>
         </div>
-      </article>
-
-      <article className="section1-card">
-        <img 
-          src={section01_3}
-          alt="함께하는 어린이 박물관 이미지" 
-          className="section1-card-bg" 
-          aria-hidden="true" 
-        />
-        <div className="section1-card-overlay">
-          <div className="section1-card-text">
-            <h3 className="section1-card-title">함께하는 어린이 박물관</h3>
-            <p className="section1-card-desc">체험관 전시로 역사를 쉽고 재미있게</p>
-          </div>
-          <Link 
-            to="/booking/kids" 
-            className="section1-card-btn" 
-            aria-label="함께하는 어린이 박물관 예약 페이지로 이동"
-          >
-            더 많은 전시 확인하기 &rarr;
-          </Link>
-        </div>
-      </article>
+      </div>
     </section>
   );
 }
 
 export default Section1;
-
