@@ -42,8 +42,8 @@
 
 .info-block {
   display: flex;
-  flex-direction: row; /* 텍스트들도 가로로 배치하여 그리드 느낌 제거 */
-  align-items: baseline;
+  flex-direction: row; /* 텍스트들도 가로로 배치하여 그리드 제거 */
+  align-items: center; /* 타이틀과 p태그 설명 그룹 전체의 수직 중앙 정렬 */
   gap: 16px;
 }
 
@@ -51,23 +51,27 @@
   font: var(--font-h2);
   font-size: 18px;
   color: var(--color-primary); /* 강조 색상 적용 */
-  margin-bottom: 0;
+  margin: 0; /* 기본 마진 제거 */
   white-space: nowrap;
+  line-height: 1.2;
+  width: 122px; /* 기존 90px에서 32px를 추가하여 설명 시작점을 오른쪽으로 밀어냄 */
+  flex-shrink: 0; /* flexbox 안에서 타이틀이 구겨지지 않도록 함 */
 }
 
 .info-desc-group {
   display: flex;
-  flex-direction: row;
-  gap: 12px;
-  flex-wrap: wrap;
+  flex-direction: column; /* 항상 세로 두 줄 처리가 되도록 column 방향 설정 */
+  gap: 0px; /* 사용자가 수정한 gap 유지 */
+  margin-top: 0; /* 중앙 정렬을 위해 마진 보정 제거 */
 }
 
 .info-desc {
   font: var(--font-body);
   font-size: 16px;
   color: var(--color-text-secondary);
-  margin-bottom: 0;
+  margin: 0; /* 기본 마진 제거 */
   white-space: nowrap;
+  line-height: 1.2;
 }
 
 /* 항목 사이 구분선 (태블릿 이상) */
